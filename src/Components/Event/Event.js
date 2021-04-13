@@ -10,7 +10,7 @@ const Event = (props) => {
       style={{ margin: "5px", padding: "5px", border: "1px solid lightGray" }}
     >
       <h5>{title}</h5>
-      <img style={{ height: "300px" }} src={image} />
+      <img style={{ height: "300px" }} src={image} alt=""/>
       <div className="d-flex justify-content-between">
         <h4>{price}৳</h4>
         <Link to="/login">
